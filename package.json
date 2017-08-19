@@ -1,0 +1,13 @@
+{
+  "name": "mp",
+  "version": "1",
+  "main": "index.js",
+  "repository": "C:\\Users\\ıtu\\Repos\\janedoe",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
