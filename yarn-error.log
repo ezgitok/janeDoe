@@ -1,0 +1,40 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\ıtu\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js init
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\PROGRA~2\COMMON~1\Odbc\FILEMA~1;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\ıtu\AppData\Local\Microsoft\WindowsApps;C:\Users\ıtu\AppData\Roaming\npm;C:\Users\ıtu\AppData\Local\atom\bin
+
+Yarn version: 
+  0.27.5
+
+Node version: 
+  8.0.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "mp",
+    "version": "1",
+    "main": "index.js",
+    "repository": "C:\\Users\\ıtu\\Repos\\janedoe",
+    "license": "MIT",
+    "scripts": {
+      "start": "node index.js"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: C:\Users\ıtu\Repos\janedoe\package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at C:\Users\ıtu\AppData\Roaming\npm\node_modules\yarn\lib\util\fs.js:554:57
+      at Generator.next (<anonymous>)
+      at step (C:\Users\ıtu\AppData\Roaming\npm\node_modules\yarn\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+      at C:\Users\ıtu\AppData\Roaming\npm\node_modules\yarn\node_modules\babel-runtime\helpers\asyncToGenerator.js:28:13
+      at <anonymous>
